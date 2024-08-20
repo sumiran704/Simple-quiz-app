@@ -1,0 +1,33 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+#quiz-container {
+    border-radius: 15px;
+}
+
+#question {
+    font-size: 1.5rem;
+}
+
+.option {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #e2e2e2;
+}
+
+.selected {
+    background-color: #007bff;
+    color: white;
+}
+
+#next-btn, #restart-btn {
+    display: none;
+}
